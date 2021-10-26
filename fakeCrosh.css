@@ -1,0 +1,30 @@
+* {
+    background: #101010;
+    color: #ffffff;
+    cursor: text;
+}
+pre {
+    font-family: Noto Sans Mono, monospace;
+    margin: 8px 0px;
+    line-height: 17px;
+    font-size: 13px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    width: 100%;
+}
+#prompt {
+    color: #ffec4c;
+    font-weight: 900;
+}
+#caret {
+    background: #FF000080;
+    height: 17px;
+    width: 7.7px;
+    display: inline-block;
+    position: absolute;
+}
+#hiddenInput {
+    position: absolute;
+    left: -100%;
+    white-space: pre;
+}
